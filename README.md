@@ -1,7 +1,9 @@
 # Sonar Qube and Sonar Scanner in Alpine Linux
-Sonar Qube 6.5
-Sonar Runner 2.5.1
+Sonar Qube 6.5  
+Sonar Runner 2.5.1  
 Alpine Linux 3.6  
+
+![](https://github.com/petronetto/sonarqube-alpine/blob/master/sonarqube.png)
 
 
 # What is Sonar?

@@ -6,7 +6,7 @@ ENV SONAR_VERSION=6.5 \
     SONARQUBE_HOME=/opt/sonarqube \
     SONARQUBE_JDBC_USERNAME=sonar \
     SONARQUBE_JDBC_PASSWORD=sonar \
-    SONAR_RUNNER_HOME=/opt/sonar-scanner-$SONAR_SCANNER_VERSION \
+    SONAR_RUNNER_HOME=/opt/sonar-scanner \
     PATH=$PATH:/opt/sonar-scanner/bin \
     SONARQUBE_JDBC_URL=
 

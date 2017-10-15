@@ -35,4 +35,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+samples/.sonar
+
 # End of https://www.gitignore.io/api/code,macos
