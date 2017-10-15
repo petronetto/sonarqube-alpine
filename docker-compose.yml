@@ -3,8 +3,8 @@ services:
 ######################################
 # SonarQube Container
 ######################################
-  sonarquebe:
-    container_name: sonarquebe
+  sonarqube:
+    container_name: sonarqube
     network_mode: bridge
     image: petronetto/sonarqube-alpine
     ports:

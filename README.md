@@ -13,9 +13,9 @@ Sonar is a web based code quality analysis tool for Maven based Java projects. I
 ## Using container
 
 Simply run `docker-compose up -d` and go to `http:localhost:9000`.
-Wait some seconds until Sonar is ready, and log with `admin` password `admin`.
+Wait some seconds until Sonar is ready, and log with `admin` password `admin`, and skip the tutorial.
 
-Now, to perform the code analysis you will need run the Sonar runner, just use the  executable in container, running: `docker exec -it sonarquebe sonar-runner`. Wait until analysis finish and check in you dashboard in `http:localhost:9000`.
+Now, to perform the code analysis you will need run the Sonar runner, just use the  executable in container, running: `docker exec -it sonarqube sonar-runner`. Wait until analysis finish and check in you dashboard in `http:localhost:9000`.
 
 > Note that you will need a file to config sonar-runner, that file is `sonar-runner.properties`, there is all configs to perform you code analysis. See the example file and sample code for more information.
 
