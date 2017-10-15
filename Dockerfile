@@ -7,7 +7,8 @@ ENV SONAR_VERSION=6.5 \
     SONARQUBE_JDBC_USERNAME=sonar \
     SONARQUBE_JDBC_PASSWORD=sonar \
     SONAR_RUNNER_HOME=/opt/sonar-scanner-$SONAR_SCANNER_VERSION \
-    PATH=$PATH:/opt/sonar-scanner-$SONAR_SCANNER_VERSION/bin
+    PATH=$PATH:/opt/sonar-scanner-$SONAR_SCANNER_VERSION/bin \
+    SONARQUBE_JDBC_URL=
 
 # Http port
 EXPOSE 9000
