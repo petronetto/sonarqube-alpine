@@ -7,7 +7,7 @@ ENV SONAR_VERSION=6.5 \
     SONARQUBE_JDBC_USERNAME=sonar \
     SONARQUBE_JDBC_PASSWORD=sonar \
     SONAR_RUNNER_HOME=/opt/sonar-scanner-$SONAR_SCANNER_VERSION \
-    PATH=$PATH:/opt/sonar-scanner-$SONAR_SCANNER_VERSION/bin \
+    PATH=$PATH:/opt/sonar-scanner/bin \
     SONARQUBE_JDBC_URL=
 
 # Http port
@@ -30,6 +30,7 @@ RUN set -x \
     && echo "---> Installing Sonar Scanner" \
     && wget -O sonarscanner.zip --no-verbose $SONAE_URL/sonar-scanner-cli/sonar-scanner-$SONAR_SCANNER_VERSION.zip \
     && unzip sonarscanner.zip \
+    && mv sonar-scanner-$SONAR_SCANNER_VERSION sonar-scanner \
     && rm sonarscanner.zip
 
 VOLUME "$SONARQUBE_HOME/data"
