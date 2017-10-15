@@ -26,7 +26,7 @@ Sonar Qube comes with some plugins installed, but, if your language isn't availa
 
 
 ## Documentacion
-For more information, access the Sonar Qube docs [Qube docs](https://docs.sonarqube.org/display/SONAR/Documentation) and [Sonar Runner](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner)
+For more information, access the Sonar Qube docs [Sonar Qube docs](https://docs.sonarqube.org/display/SONAR/Documentation) and [Sonar Runner docs](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner)
 
 
 # License
