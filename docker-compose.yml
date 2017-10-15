@@ -1,0 +1,15 @@
+version: '2'
+services:
+######################################
+# SonarQube Container
+######################################
+  sonarquebe:
+    container_name: sonarquebe
+    network_mode: bridge
+    image: petronetto/sonarqube-alpine
+    ports:
+      - 9000:9000
+      - 9002:9002
+    volumes:
+      - ./samples:/data/samples
+      - ./sonar-runner.properties:/opt/sonar-scanner-2.5.1/conf/sonar-runner.properties
